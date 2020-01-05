@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e2ded70-32ad-4722-a061-6b85254c6b4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../activiti/activiti.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../activiti06/activiti06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog/blog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/changgou_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d8946ca-f171-4f18-92c2-8237c43d8a70.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6d8946ca-f171-4f18-92c2-8237c43d8a70/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01a0b6b4e88b2dd0845e26abfccaa08adb58d973" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01e8348b8ceaa33cb54ca96f40f3f449ce4c27aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02c6f46d7c9036dd85b5bf07f2b0c0c7473dbea4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09cced1b0050e544b44f12bd249d7167c86420cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/09e2acc30f829787c1fa783ede40f1219d4ed730" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a8b1a85ec26b04295ac032e82861d79c537925d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0bfe4ab01eaa247a7e94079821fad18b6e62d1eb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0c4ddca514f6616ae6f84e41572aecf85902f372" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e104104c20cd0df4dffb2939b940fb9ab057902" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10732ab378752ad68de135c8009cfc47bb21df8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10fc0ba4360eed258c45954cd2b756264729cba5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16475a85c2e8608a66ae29779f450aa8ad26d8ab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/178b1005bc83d2ac21e78f5f2d2bcf261c3d4cb6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18584ccad97ef995b57aaca8e5c36e4de385925f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1a2d2836eb46355397c4fb388d920a5e3847797e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/2111f0c8cfc17f3d32ee1f5f812139280ab831ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/22e746d6024f8a82eefd40b2bdc4e1ebf815c4fa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a5c5f8f18784d0de132d1a0283dbc8b58f4a5b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b54f5fa500a6798b728fcb3f9c947221b59c2f3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cd8bb4d284b3ab2fc4b39dfa80b74d2f8aabc64" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f263a096e9c37241fb5820a7adc47776f1b0f18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f8fe7d22280fd1c80aebf2de4754e01c1798369" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33b31ec51a6fb5ffbf6e74661f94d09ae92b8c7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/362a1d5ca143ad95b4b582b297f81b4290bdd731" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/3664bae986ccb17d170b1754ef2aba9eb6c2997f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38a52ded1ab23984b80786219cbbbf01bac156ef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3aa09e7d245a03914e4da95611e836d0b23e1608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d0702c952f81dfec37cad85c3e76f5bc44c0966" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3ddcf3cbb4010ba0e9c39956c622918d0e607d6e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fd5c9b51bf4bc2f6bfef7356b9725681755c0c8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42635316bc1669a421d9bd1e1de18d30e41e952f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/464aa1b3e3ce5f25560e769778dc53daf2730114" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47da16c2c5572656ba520cf1dc861644d104ce95" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/482a13ca7d8a751abce394f27eba24966af5cab1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a7f50bc8942538adb7dca9e42d5d2685e451c13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c16d245c333f0cac2542d577401956ccb39b671" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4cc7b1541964902d0ba86530d092024e8192f778" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/528775a2e91c81a84a731764269652687263389c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/5314d9479282696e9f67c0bbda3d6cfda01c0dad" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/533742588444e757d14845c6eee96f8df85d34b5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53ffdf96e5805fdc66562d0cf0e10c1ce00bb933" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/555b69295455c045371754184a3f3da123539ff3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5affb0c4d215c2c5fa5140e9f64a2f13fc0f6c30" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67e66c011bfe4a343fce7f479169d51f61e0cb24" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/8/68f02e1fdab3d4b23c0e13edaf21135e9ce1318f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a3a8076e9e6f190199640651c6a5242beefa79a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6be34a0871e0aa218d30308b884532597d0cabd9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c18f72262d35010ba01396062ce8985ed3de3e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6e2ec86e2a4ddb5440d6ff7d5bc6b1d39cf2f761" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f3f47f99880dce8787672bd32152155933790a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/717474f2acd1e5c44faa563d0177b811f7b5facb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/8/785320e11f33652d7840d7ad71e07410d8222235" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79126d92f316e53dda194ec929d394bc13432d5c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79246accafd65a6c4e1d4d7b3807c00bf9a82810" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c41501d27dca995778b7e94d99dc12ac1436f0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/80b7ca30f738763b5713129f78ab8707ca4d5255" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/8380b9717d8e1397c551a61eba29742e53c49bae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85dd221e8d05fc5681e6c1d17e767f0efef726d6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/8679d1ac6646c9f7c6e5bc0b4a5917538ad7a5fc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/6/86a06b467ffdc68b5e1917a896e3367d09ea9b08" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87220f41b4581e434f32369113f41d0b7dccdedf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872a191a7aa9f649863b7c8875191e89d8bfa68e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/a/8ae4e3588d2afcc8893de154a5dbece0a0ef6aed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8be66c4cb3620d1d333064281300a92096c93cac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8f9073a5eefb200b450750a3b30983bbdfefe84b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93d6606bde8a2c00bfb254f061894348904a25b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/96ee6c5d61cdb11a05387148d08e96125c54235b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97b34615cc299b6e36c7f948caf2bf79a5568947" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97e591975cc3d569bd385588bd284eeaa9537bd0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/9/99ead793e276d59f5c222412d8a0af13f5ba4ff5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9aec7afe22433b8eddc8503c74a4d068c35a185a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1455b4f1cbd18e9fcdbb7aa4361527a1d51e25c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5c848dc1f72e46c25bdbe9d272b90d3cd857498" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8260df6d6777cda7d0ce0f43dd2b09fd32f0222" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aaf23451843c65b59484ae9fdb7bb4c725e04742" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/ae6f4e25695b32363d6089e30fd53946f84c4315" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3ee8f38cd6e0956298fa8fff3ff5b24f625188d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5bc0e326def12442db0596fa24899eca7b454eb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b68598e200c818571542766b22a4b3f8f980e336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8436417ef6aceb7faad38bd46f36ff68945f2cf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4bc9e3397c4ddf5d46e72e44631749cfca0a410" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c69f9e32ce746252ced54af8592e4f535c507d52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8397f2e2ed491cb2f98955ed00f5da1e9a3fcd5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c90397e88f580a18b77553e56d3d71177cca9726" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c97305d116cabd37a84645b2f0a110fef3f449ce" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca30dc012c92082a1630a133d336e0ce5c12bbae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca5c44055896c1601b2046531e95deb90fb82f3f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/ca96731c818fd81968d94d9e954c706b4bc16cae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d240979c2bbdc7d239d79abb44f04be4ee6ae6f8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4d5a37bf3e4b52349ea1e5b8a2a62f3e6b0e419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d57b2a18e0210e5c7daa48f5e4f6ecb2ab3ddc3d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9351a070f71c30580b337b77e2ef952ffce23e3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfdc0fd1f15985c599b8c1c064d64fc68ca9c146" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dff36fa4f12484a3a3c50b8ae7e33b0d696df69e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0559669d2d55780bdac4cb5e735c12adac1ad0f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e19fc1acb99d956e82a39aec77e39154d0ca5cf8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3a42a8b199266999d5c366c88f519a603c767ed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e492f21ae79c9ad09b243c8e9864864633dc3b2e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/4/e4c755c0e348fa4c5912c2c63fc98a512d371130" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e56a31b5f6410624d28c9a0184c74dfba9190331" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea8ca9d9fae83ee83da8f695fe423d12371e3690" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb564378ef2e951102758f0dfba8642fbd4589b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f122957c75d91083c3ed3dcc025e16e4b11e9a1f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f176882339b889db6e517a2154f9986f84fe887a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/1/f1a81feab2c00e08cd9cc8194feed123924ad316" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f29249fd3679b7e1f358bb264eb7fba25cec9ad7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f3125952b47078d2e1a47e79bb4a1aaa8d77bc83" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4829d3a1bc0b271cecef2f40b91f650c654d7ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6c4b5a6f879acf5f4f8f4178306ba9984b9f9c0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f7518260dbf0bc41736794c87e47cdb0122a9c21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f847f89e66129c3b32c17294825294bb57cda461" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f8d4871d59983f028fd7eddf10c169dc21abb5c4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc83920b3af0243736212a5bb8f6e615d957d318" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common-db/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/Exception/MyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/BCrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/CacheKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/ChineseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/QiniuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/RandomValueUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/src/main/java/entity/StatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/Exception/MyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/BCrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/CacheKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/ChineseUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/HttpClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/HttpClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/QiniuUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/RandomValueUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-common/target/classes/entity/StatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-eureka/src/main/java/com/changgou/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-eureka/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-eureka/target/classes/com/changgou/EurekaApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/src/main/java/changgou/content/api/ContentCategoryFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/src/main/java/changgou/content/api/ContentFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/src/main/java/changgou/content/pojo/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/src/main/java/changgou/content/pojo/ContentCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/target/classes/changgou/content/api/ContentCategoryFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/target/classes/changgou/content/api/ContentFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/target/classes/changgou/content/pojo/Content.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-content-api/target/classes/changgou/content/pojo/ContentCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/api/SkuFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/CategoryBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Para.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Pref.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Spec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/StockBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/src/main/java/com/changgou/goods/pojo/UndoLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/META-INF/changgou-service-goods-api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/api/SkuFeign.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/CategoryBrand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Para.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Pref.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Sku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Spu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/StockBack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/Template.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-goods-api/target/classes/com/changgou/goods/pojo/UndoLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-search-api/changgou-service-search-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-search-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-search-api/src/main/java/com/changgou/search/pojo/SkuInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/changgou-service-search-api/target/classes/com/changgou/search/pojo/SkuInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/src/main/java/com/changgou/CanalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/src/main/java/com/changgou/canal/CanalDataEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/src/main/java/com/changgou/client/ContentCategoryFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/src/main/java/com/changgou/client/ContentFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/src/main/java/com/changgou/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/classes/META-INF/changgou-service-canal.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/classes/com/changgou/CanalApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/classes/com/changgou/canal/CanalDataEventListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/classes/com/changgou/client/ContentCategoryFeignClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/classes/com/changgou/client/ContentFeignClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/classes/com/changgou/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-canal/target/test-classes/META-INF/changgou-service-canal.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/ContentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/controller/ContentCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/controller/ContentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/dao/ContentCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/dao/ContentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/service/ContentCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/service/ContentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/service/impl/ContentCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/service/impl/ContentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/META-INF/changgou-service-content.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/ContentApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/controller/ContentCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/controller/ContentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/dao/ContentCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/dao/ContentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/service/ContentCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/service/ContentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/service/impl/ContentCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/classes/com/changgou/service/impl/ContentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-content/target/test-classes/META-INF/changgou-service-content.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-file/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-file/src/main/java/com/changgou/FileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-file/src/main/java/com/changgou/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-file/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-file/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-file/target/classes/com/changgou/FileApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-file/target/classes/com/changgou/controller/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/GoodsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/AlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/CategoryBrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/ParaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/PrefController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/SkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/SpecController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/SpuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/StockBackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/TemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/UndoLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/AlbumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/CategoryBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/ParaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/PrefMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/SkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/SpecMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/SpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/StockBackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/TemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/dao/UndoLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/CategoryBrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/ParaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/PrefService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/SkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/SpecService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/SpuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/StockBackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/TemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/UndoLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/CategoryBrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/ParaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/PrefServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/SpecServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/StockBackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/TemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/service/impl/UndoLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/src/test/java/com/changgou/goods/test/GoodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/GoodsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/AlbumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/CategoryBrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/ParaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/PrefController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/SkuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/SpecController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/SpuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/StockBackController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/TemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/controller/UndoLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/AlbumMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/CategoryBrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/ParaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/PrefMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/SkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/SpecMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/SpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/StockBackMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/TemplateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/dao/UndoLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/AlbumService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/CategoryBrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/ParaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/PrefService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/SkuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/SpecService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/SpuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/StockBackService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/TemplateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/UndoLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/CategoryBrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/ParaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/PrefServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/SkuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/SpecServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/SpuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/StockBackServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/TemplateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/classes/com/changgou/service/impl/UndoLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-goods/target/test-classes/com/changgou/goods/test/GoodsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/SearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/client/SkuClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/controller/SkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/dao/SkuEsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/SkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/META-INF/changgou-service-search.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/com/changgou/SearchApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/com/changgou/client/SkuClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/com/changgou/controller/SkuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/com/changgou/dao/SkuEsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/com/changgou/service/SkuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/com/changgou/service/impl/SkuServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/changgou-service-search/target/classes/com/changgou/service/impl/SkuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ihrm_parent/ihrm_company/ihrm_company.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ihrm_parent/ihrm_parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/.idea/sonarlint/issuestore/0/3/0339694cf612720c82eb281dd303b3806f5f685b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/.idea/sonarlint/issuestore/7/5/7520f8e78a33e7f91bfd3e3f08f4d11442c70020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/.idea/sonarlint/issuestore/9/4/94583b5ff21af7f005e9b1876dcf6967679c9309" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/.idea/sonarlint/issuestore/b/8/b8443574859e3611b807f34eaae2924924a80908" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicecombtest/service_customer/service_customer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicecombtest/service_interface/service_interface.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicecombtest/servicecombtest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro/shiro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shiro2/shiro2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/java/com/lrm/service/impl/TagServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/src/main/java/com/lrm/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../blog/src/main/resources/templates/blog.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changgou_goods@192.168.186.145" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changgou_goods@192.168.186.145" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="changgou_goods@192.168.186.145" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="changgou_goods: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ab8846254/changgou_parent.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\IdeaProjects\changgou_parent\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\java\maven\maven_repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VN0CUW5TmRvl9HnS50pVhnRyhg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.22375" />
+    <property name="project.structure.side.proportion" value="0.22580647" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.changgou.goods.api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\changgou_parent\changgou-service-api\changgou-service-content-api\src\main\java\changgou\content" />
+      <recent name="D:\IdeaProjects\changgou_parent\changgou-service\changgou-service-content-interface\src\main\java\com\changgou\api" />
+      <recent name="D:\IdeaProjects\changgou_parent\changgou-service\changgou-service-canal\src\main\java\com\changgou\client" />
+      <recent name="D:\IdeaProjects\changgou_parent\changgou-service\changgou-service-content\src\main\java" />
+      <recent name="D:\IdeaProjects\changgou_parent\changgou-service\changgou-service-goods\src\main\java\com\changgou" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 132 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 132 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="changgou-service-file" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="Found 132 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="changgou-service-content" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+    <configuration name="CodeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.CodeApplication" />
+      <module name="code-template" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="changgou-service-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changgou.goods.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.changgou.goods.test" />
+      <option name="MAIN_CLASS_NAME" value="com.changgou.goods.test.GoodsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="changgou-service-content" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changgou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changgou.ContentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="changgou-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changgou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changgou.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="changgou-service-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changgou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changgou.GoodsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="changgou-service-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changgou.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.changgou.SearchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeApplication" />
+      <item itemvalue="JUnit.GoodsTest.test" />
+      <item itemvalue="Spring Boot.GoodsApplication" />
+      <item itemvalue="Spring Boot.ContentApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="JUnit.GoodsTest.test" />
+        <item itemvalue="Application.CodeApplication" />
+        <item itemvalue="Spring Boot.ContentApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.22199453" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e2ded70-32ad-4722-a061-6b85254c6b4e" name="Default Changelist" comment="" />
+      <created>1577078118076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577078118076</updated>
+      <workItem from="1577078121955" duration="16430000" />
+      <workItem from="1577154972862" duration="10978000" />
+      <workItem from="1577173351203" duration="497000" />
+      <workItem from="1577173955709" duration="832000" />
+      <workItem from="1577176355536" duration="23000" />
+      <workItem from="1577177689755" duration="2147000" />
+      <workItem from="1577183821671" duration="43893000" />
+      <workItem from="1577601920742" duration="1287000" />
+      <workItem from="1577603311437" duration="9362000" />
+      <workItem from="1577673377500" duration="16018000" />
+      <workItem from="1577693585996" duration="49244000" />
+      <workItem from="1577887865892" duration="134000" />
+      <workItem from="1577888032673" duration="1016000" />
+      <workItem from="1577889073366" duration="336000" />
+      <workItem from="1577952332599" duration="13626000" />
+      <workItem from="1577971754584" duration="709000" />
+      <workItem from="1577973539566" duration="3122000" />
+      <workItem from="1577976697204" duration="17928000" />
+      <workItem from="1578110873409" duration="18527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="76" key="#Project_Structure" timestamp="1577975191803">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1577975191803" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1578022126666">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1578022126666" />
+    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578223256154">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="449" y="144" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1578223256154" />
+    <state x="394" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577976254459">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="394" y="343" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1577976254459" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577976322956">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1577976322956" />
+    <state x="372" y="10" key="CommitChangelistDialog2" timestamp="1578232611431">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="372" y="10" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578232611431" />
+    <state x="549" y="159" key="FileChooserDialogImpl" timestamp="1578232512813">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1578232512813" />
+    <state x="518" y="284" key="Github.CreatePullRequestDialog" timestamp="1578232542866">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="518" y="284" key="Github.CreatePullRequestDialog/0.0.1536.834@0.0.1536.834" timestamp="1578232542866" />
+    <state x="615" y="311" key="Github.ShareDialog" timestamp="1578232436129">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="615" y="311" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1578232436129" />
+    <state x="346" y="121" key="Github.UntrackedFilesDialog" timestamp="1578232468742">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="346" y="121" key="Github.UntrackedFilesDialog/0.0.1536.834@0.0.1536.834" timestamp="1578232468742" />
+    <state width="1138" height="238" key="GridCell.Tab.0.bottom" timestamp="1578231724410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578231724410" />
+    <state width="1138" height="238" key="GridCell.Tab.0.center" timestamp="1578231724410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1578231724410" />
+    <state width="1138" height="238" key="GridCell.Tab.0.left" timestamp="1578231724409">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1578231724409" />
+    <state width="1138" height="238" key="GridCell.Tab.0.right" timestamp="1578231724410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1578231724410" />
+    <state width="1138" height="238" key="GridCell.Tab.1.bottom" timestamp="1578231724410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578231724410" />
+    <state width="1138" height="238" key="GridCell.Tab.1.center" timestamp="1578231724410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1578231724410" />
+    <state width="1138" height="238" key="GridCell.Tab.1.left" timestamp="1578231724410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1578231724410" />
+    <state width="1138" height="238" key="GridCell.Tab.1.right" timestamp="1578231724410">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1578231724410" />
+    <state width="1138" height="238" key="GridCell.Tab.2.bottom" timestamp="1578231724412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1578231724412" />
+    <state width="1138" height="238" key="GridCell.Tab.2.center" timestamp="1578231724412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1578231724412" />
+    <state width="1138" height="238" key="GridCell.Tab.2.left" timestamp="1578231724411">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1578231724411" />
+    <state width="1138" height="238" key="GridCell.Tab.2.right" timestamp="1578231724412">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1138" height="238" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1578231724412" />
+    <state x="270" y="60" key="SettingsEditor" timestamp="1577965016075">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1577965016075" />
+    <state x="321" y="154" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578231722276">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="321" y="154" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1578231722276" />
+    <state x="499" y="171" key="extract.method.dialog" timestamp="1578041167428">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="171" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1578041167428" />
+    <state x="588" y="282" key="git4idea.rebase.GitRebaseDialog" timestamp="1578232592835">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="588" y="282" key="git4idea.rebase.GitRebaseDialog/0.0.1536.834@0.0.1536.834" timestamp="1578232592835" />
+    <state x="201" y="102" key="new project wizard" timestamp="1577968604246">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="201" y="102" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1577968604246" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1577966959178">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1577966959178" />
+    <state x="431" y="155" key="search.everywhere.popup" timestamp="1578034575496">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1578034575496" />
+    <state x="599" y="209" key="svn.repositoryBrowser" timestamp="1578232519328">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="599" y="209" key="svn.repositoryBrowser/0.0.1536.834@0.0.1536.834" timestamp="1578232519328" />
+    <state x="572" y="192" key="svn4idea.import.options" timestamp="1578232518356">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="572" y="192" key="svn4idea.import.options/0.0.1536.834@0.0.1536.834" timestamp="1578232518356" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/BrandController.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/service/impl/ContentServiceImpl.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/controller/ContentController.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-content/src/main/java/com/changgou/controller/ContentController.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-goods/src/main/java/com/changgou/controller/SkuController.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>305</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>326</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>348</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>145</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/changgou-service/changgou-service-search/src/main/java/com/changgou/service/impl/SkuServiceImpl.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

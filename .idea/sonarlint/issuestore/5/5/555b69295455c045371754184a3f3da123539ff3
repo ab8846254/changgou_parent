@@ -1,0 +1,6 @@
+
+isquid:S3776J"RRefactor this method to reduce its Cognitive Complexity from 39 to the 15 allowed.(Í§Ëœ
+ksquid:S32522"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ
+ksquid:S3252""OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ
+psquid:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(§æÉ¶
+psquid:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(èž¹º

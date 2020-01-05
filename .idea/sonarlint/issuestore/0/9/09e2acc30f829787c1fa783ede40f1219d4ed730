@@ -1,0 +1,24 @@
+
+€"squid:ClassVariableVisibilityCheck"RMake bucket a static final constant or non-public and provide accessors if needed.(‚³ÍÚ
+T
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(À€Î¡øÿÿÿÿ
+Asquid:S1481"+Remove this unused "putRet" local variable.(Ëî¬r
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(áçöéúÿÿÿÿ
+Csquid:S1444",Make this "public static bucket" field final(‚³ÍÚ
+ˆ"squid:ClassVariableVisibilityCheck"UMake accessKey a static final constant or non-public and provide accessors if needed.(æ€è÷ùÿÿÿÿ
+O
+squid:S106?"9Replace this use of System.out or System.err by a logger.(²¬ª‰
+Ksquid:S1444"/Make this "public static secretKey" field final(Æ•Êÿÿÿÿÿ
+T
+squid:S106R"9Replace this use of System.out or System.err by a logger.(ĞüÜ»ûÿÿÿÿ
+O
+squid:S106#"9Replace this use of System.out or System.err by a logger.(²¬ª‰
+Psquid:S1118":Add a private constructor to hide the implicit public one.(ò§ÿ#
+Psquid:S1854":Remove this useless assignment to local variable "putRet".(Ëî¬r
+O
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ì—¡Š
+Ksquid:S1444"/Make this "public static accessKey" field final(æ€è÷ùÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck"UMake secretKey a static final constant or non-public and provide accessors if needed.(Æ•Êÿÿÿÿÿ
+O
+squid:S106:"9Replace this use of System.out or System.err by a logger.( †Ğ

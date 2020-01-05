@@ -1,0 +1,41 @@
+server:
+  port: 18083
+spring:
+  application:
+    name: canal
+  main:
+    allow-bean-definition-overriding: true
+  redis:
+    host: 192.168.186.145
+    port: 6379
+    max-idle: 20
+    max-total: 100
+    max-wait-millis: 3000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
+#配置feign超时
+feign:
+  hystrix:
+    enabled: true
+ribbon:
+  ConnectionTimeOut: 500
+  ReadTimeOut: 20000
+
+#配置全局超时
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+canal:
+  client:
+    instances:
+      example:
+        host: 192.168.186.145
+        port: 11111
