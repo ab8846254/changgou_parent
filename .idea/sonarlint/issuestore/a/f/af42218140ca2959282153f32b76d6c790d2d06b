@@ -1,0 +1,16 @@
+
+Zsquid:S2583["CChange this condition so that it does not always evaluate to "true"(ß‰´œ
+^squid:S2259™"FA "NullPointerException" could be thrown; "response" is nullable here.(Âì“¡
+`squid:S2259"HA "NullPointerException" could be thrown; "httpClient" is nullable here.(—¢¯µ
+@squid:S1148œ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+psquid:S2293F"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÖëÒ×
+À%squid:RedundantThrowsDeclarationCheckJ"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(¬¼ú„úÿÿÿÿ
+»%squid:RedundantThrowsDeclarationCheckP"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(ñğË™
+º%squid:RedundantThrowsDeclarationCheckV"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(ä†ÇH
+^squid:HiddenFieldCheckX"7Rename "url" which hides the field declared at line 32.( ±Ï›ıÿÿÿÿ
+Ksquid:S2864Z"4Iterate over the "entrySet" instead of the "keySet".(÷¤Äò
+psquid:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(êø²
+Ksquid:S2864n"4Iterate over the "entrySet" instead of the "keySet".(÷¤Äò
+»%squid:RedundantThrowsDeclarationCheckx"‰Remove the declaration of thrown exception 'org.apache.http.client.ClientProtocolException' which is a subclass of 'java.io.IOException'.(˜¦äÏ
+›%squid:RedundantThrowsDeclarationCheck¦"iRemove the declaration of thrown exception 'org.apache.http.ParseException' which is a runtime exception.(½Ã–Ô
+%squid:RedundantThrowsDeclarationCheck¦"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(½Ã–Ô

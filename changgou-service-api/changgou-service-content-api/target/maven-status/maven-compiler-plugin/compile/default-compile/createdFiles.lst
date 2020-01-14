@@ -1,0 +1,4 @@
+changgou\content\api\ContentFeign.class
+changgou\content\pojo\Content.class
+changgou\content\pojo\ContentCategory.class
+changgou\content\api\ContentCategoryFeign.class

@@ -1,0 +1,7 @@
+com\changgou\SearchApplication.class
+com\changgou\client\SkuClient.class
+com\changgou\dao\SkuEsMapper.class
+com\changgou\service\SkuService.class
+com\changgou\controller\SkuController.class
+com\changgou\service\impl\SkuServiceImpl$1.class
+com\changgou\service\impl\SkuServiceImpl.class

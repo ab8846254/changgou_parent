@@ -1,0 +1,11 @@
+
+"squid:ClassVariableVisibilityCheck!"SMake offsize a static final constant or non-public and provide accessors if needed.(ú©â§
+jsquid:S1450"SRemove the "next" field and declare it as a local variable in the relevant methods.(„›±è
+Bsquid:S1948"&Make "list" transient or serializable.(Ì‡³°ûÿÿÿÿ
+Tsquid:S1854/"=Remove this useless assignment to local variable "pagecount".(çÓİ¿
+Gsquid:S1172H"+Remove this unused method parameter "last".(íø±»ùÿÿÿÿ
+Dsquid:S1659s"(Declare "rightcount" on a separate line.(÷û³Òüÿÿÿÿ
+U
+squid:S106ì"9Replace this use of System.out or System.err by a logger.(¤–âÔıÿÿÿÿ
+Esquid:S1481/".Remove this unused "pagecount" local variable.(çÓİ¿
+?squid:S1068"(Remove this unused "next" private field.(„›±è

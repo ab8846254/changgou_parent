@@ -1,29 +1,29 @@
 
-osquid:ModifiersOrderCheck%"EReorder the modifiers to comply with the Java Language Specification.(Í¤Üùÿÿÿÿ
-usquid:S1488d"^Immediately return this expression instead of assigning it to the temporary variable "nextId".(ê¤øØ
-jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(»Ø«ü
-osquid:ModifiersOrderCheck+"EReorder the modifiers to comply with the Java Language Specification.(Ô×ùÂúÿÿÿÿ
-rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»Ø«ü
-wsquid:S00115+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ô×ùÂúÿÿÿÿ
-osquid:ModifiersOrderCheck)"EReorder the modifiers to comply with the Java Language Specification.(šößúÿÿÿÿ
-osquid:ModifiersOrderCheck'"EReorder the modifiers to comply with the Java Language Specification.(©äı¹øÿÿÿÿ
-wsquid:S00115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í¤Üùÿÿÿÿ
-osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(×¹ùšøÿÿÿÿ
+wsquid:S00115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šößúÿÿÿÿ
 U
 squid:S106©"9Replace this use of System.out or System.err by a logger.(Âõò¾ÿÿÿÿÿ
-vsquid:S1149}"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÓŠÖµ
-wsquid:S00115)"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(šößúÿÿÿÿ
+csquid:S00112U"FDefine and throw a dedicated exception instead of using a generic one.(Úûßâúÿÿÿÿ
+rsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(»Ø«ü
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×¹ùšøÿÿÿÿ
+wsquid:S00115+"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ô×ùÂúÿÿÿÿ
+jsquid:ModifiersOrderCheck!"EReorder the modifiers to comply with the Java Language Specification.(á•ÅÂ
+usquid:S1488d"^Immediately return this expression instead of assigning it to the temporary variable "nextId".(ê¤øØ
+wsquid:S00115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Í¤Üùÿÿÿÿ
 osquid:ModifiersOrderCheck-"EReorder the modifiers to comply with the Java Language Specification.(…ÍØ‰üÿÿÿÿ
+wsquid:S00115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©äı¹øÿÿÿÿ
+vsquid:S1149}"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ÓŠÖµ
+osquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(×¹ùšøÿÿÿÿ
+jsquid:ModifiersOrderCheck#"EReorder the modifiers to comply with the Java Language Specification.(¬Ê÷Ó
 rsquid:S00115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(á•ÅÂ
-rsquid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬Ê÷Ó
-wsquid:S00115/"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò”¢üÿÿÿÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(»Ø«ü
 U
 squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(ıÏ¼Áıÿÿÿÿ
-csquid:S00112U"FDefine and throw a dedicated exception instead of using a generic one.(Úûßâúÿÿÿÿ
-osquid:ModifiersOrderCheck/"EReorder the modifiers to comply with the Java Language Specification.(ò”¢üÿÿÿÿ
-wsquid:S00115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©äı¹øÿÿÿÿ
-wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(×¹ùšøÿÿÿÿ
-jsquid:ModifiersOrderCheck!"EReorder the modifiers to comply with the Java Language Specification.(á•ÅÂ
 wsquid:S00115-"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(…ÍØ‰üÿÿÿÿ
-jsquid:ModifiersOrderCheck#"EReorder the modifiers to comply with the Java Language Specification.(¬Ê÷Ó
 ssquid:UselessImportCheck"HRemove this unused import 'org.springframework.context.annotation.Bean'.(‚î‰Ş8 “¿ó-
+osquid:ModifiersOrderCheck+"EReorder the modifiers to comply with the Java Language Specification.(Ô×ùÂúÿÿÿÿ
+osquid:ModifiersOrderCheck/"EReorder the modifiers to comply with the Java Language Specification.(ò”¢üÿÿÿÿ
+wsquid:S00115/"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ò”¢üÿÿÿÿ
+osquid:ModifiersOrderCheck%"EReorder the modifiers to comply with the Java Language Specification.(Í¤Üùÿÿÿÿ
+rsquid:S00115#"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬Ê÷Ó
+osquid:ModifiersOrderCheck'"EReorder the modifiers to comply with the Java Language Specification.(©äı¹øÿÿÿÿ
+osquid:ModifiersOrderCheck)"EReorder the modifiers to comply with the Java Language Specification.(šößúÿÿÿÿ

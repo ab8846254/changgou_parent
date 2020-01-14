@@ -1,6 +1,6 @@
 
-psquid:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãÝóÚ
+ksquid:S3252""OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ
 nsquid:S3776J"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¡÷‰âÿÿÿÿÿ
 usquid:S2293&"YReplace the type specification in this constructor call with the diamond operator ("<>").(½Ûð¥øÿÿÿÿ
-ksquid:S3252""OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ
 ksquid:S32522"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(‹‹¥®úÿÿÿÿ
+psquid:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãÝóÚ

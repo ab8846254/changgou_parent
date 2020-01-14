@@ -1,6 +1,19 @@
 
-dsquid:S1192J"FDefine a constant instead of duplicating this literal "brand" 3 times.(‹§ç†8â¼Õö-
-msquid:S1192n"JDefine a constant instead of duplicating this literal "brandName" 4 times.(ëåèÀûÿÿÿÿ8¦‘ÄÑö-
-~squid:S1488Ï"_Immediately return this expression instead of assigning it to the temporary variable "allSpec".(éã×8…©İö-
-lsquid:S1192D"IDefine a constant instead of duplicating this literal "category" 3 times.(Õ‰šûÿÿÿÿ8’¤¶Õö-
-osquid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(¾„ÿÁøÿÿÿÿ8…©İö-
+lsquid:S1192X"IDefine a constant instead of duplicating this literal "category" 4 times.(Õ‰šûÿÿÿÿ8îªè®÷-
+jsquid:S2259¸"FA "NullPointerException" could be thrown; "queryMap" is nullable here.(²ÎµŒşÿÿÿÿ8ì–ğ®÷-
+ksquid:S1192_"HDefine a constant instead of duplicating this literal "skuSpec" 4 times.(ëæõ¾øÿÿÿÿ8…ûë®÷-
+esquid:S1192ª"FDefine a constant instead of duplicating this literal "price" 3 times.(‘Ò‘­8ì–ğ®÷-
+jsquid:CommentedOutCodeLineÔ"<This block of commented-out lines of code should be removed.(†€éˆ8î¾¯÷-
+osquid:CommentedOutCodeLineì"<This block of commented-out lines of code should be removed.(æŸùèúÿÿÿÿ8ì–ğ®÷-
+ksquid:S1192Y"MDefine a constant instead of duplicating this literal "categoryName" 3 times.(Ë„¹ñ8…¤é®÷-
+qsquid:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ë×œí8ì–ğ®÷-
+ƒsquid:S1149ú"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì­ŠÜúÿÿÿÿ8ì–ğ®÷-
+jsquid:S1192Y"LDefine a constant instead of duplicating this literal "skuCategory" 4 times.(Ë„¹ñ8…¤é®÷-
+vsquid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¥¦Æÿÿÿÿÿ8ì–ğ®÷-
+osquid:CommentedOutCodeLineê"<This block of commented-out lines of code should be removed.(¾„ÿÁøÿÿÿÿ8ì–ğ®÷-
+hsquid:S1192\"JDefine a constant instead of duplicating this literal "brandName" 5 times.(û õ‹8°ìê®÷-
+ƒsquid:S1488Ñ"_Immediately return this expression instead of assigning it to the temporary variable "pageNum".(øıˆ™úÿÿÿÿ8ì–ğ®÷-
+dsquid:S1192["FDefine a constant instead of duplicating this literal "brand" 4 times.(‹§ç†8â½ê®÷-
+Osquid:S2201¬"+The return value of "replace" must be used.(²ùß¦üÿÿÿÿ8ì–ğ®÷-
+xsquid:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(äò£ô8ì–ğ®÷-
+~squid:S1488Ñ"_Immediately return this expression instead of assigning it to the temporary variable "allSpec".(éã×8ì–ğ®÷-

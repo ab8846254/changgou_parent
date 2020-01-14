@@ -1,0 +1,5 @@
+com\changgou\canal\CanalDataEventListener.class
+com\changgou\config\RedisConfig.class
+com\changgou\client\ContentFeignClient.class
+com\changgou\CanalApplication.class
+com\changgou\client\ContentCategoryFeignClient.class

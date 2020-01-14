@@ -3,7 +3,7 @@ package entity;
 import java.io.Serializable;
 import java.util.List;
 
-public class Page <T> implements Serializable{
+public class Page <T> implements Serializable {
 
 	// 页数（第几页）
 	private long currentpage;
@@ -16,22 +16,22 @@ public class Page <T> implements Serializable{
 
 	// 下页
 	private int next;
-	
+
 	private List<T> list;
 
 	// 最后一页
 	private int last;
-	
+
 	private int lpage;
-	
+
 	private int rpage;
-	
+
 	//从哪条开始查
 	private long start;
-	
+
 	//全局偏移量
 	public int offsize = 2;
-	
+
 	public Page() {
 		super();
 	}
@@ -225,14 +225,5 @@ public class Page <T> implements Serializable{
 	 */
 	public void setList(List<T> list) {
 		this.list = list;
-	}
-
-	public static void main(String[] args) {
-			//总记录数
-			//当前页
-			//每页显示多少条
-			int cpage =17;
-			Page page = new Page(1001,cpage,50,7);
-			System.out.println("开始页:"+page.getLpage()+"__当前页："+page.getCurrentpage()+"__结束页"+page.getRpage()+"____总页数："+page.getLast());
 	}
 }

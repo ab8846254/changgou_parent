@@ -21,23 +21,25 @@ public class SkuController {
 
     /**
      * 数据导入
+     *
      * @return
      */
     @GetMapping("/import")
-    public Result importData(){
+    public Result importData() {
         skuService.importData();
-        return new Result(true, StatusCode.OK,"导入数据成功");
+        return new Result(true, StatusCode.OK, "导入数据成功");
     }
 
     /**
-     *
      * @param searchMap
      * @return
      */
     @GetMapping
-    public Map search(@RequestParam Map<String,String> searchMap){
+    public Map search(@RequestParam Map<String, String> searchMap) {
         Map map = skuService.queryMap(searchMap);
 
         return map;
     }
+
+
 }

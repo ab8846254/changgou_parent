@@ -26,6 +26,7 @@ import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.SearchResultMapper;
 import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.aggregation.impl.AggregatedPageImpl;
+import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
 
@@ -169,13 +170,12 @@ public class SkuServiceImpl implements SkuService {
             }
             String price = queryMap.get("price");
             if (!StringUtils.isEmpty(price)) {
-                price.replace("元", " ").replace("以上", " ");
-                String[] prices = price.split("-");
+                String newPrice = price.replace("元", "").replace("以上", "");
+                String[] prices = newPrice.split("-");
                 if (prices != null && prices.length > 0) {
                     boolQueryBuilder.must(QueryBuilders.rangeQuery("price").gt(Integer.parseInt(prices[0])));
-
                     if (prices.length > 1) {
-                        boolQueryBuilder.must(QueryBuilders.rangeQuery("price").gt(Integer.parseInt(prices[1])));
+                        boolQueryBuilder.must(QueryBuilders.rangeQuery("price").lt(Integer.parseInt(prices[1])));
                     }
                 }
             }
@@ -190,7 +190,7 @@ public class SkuServiceImpl implements SkuService {
         }
         //用户如果不传分页参数默认第一页
         Integer pageNum = coverterPage(queryMap);
-        Integer size = 3;
+        Integer size = 30;
         nativeSearchQueryBuilder.withPageable(PageRequest.of(pageNum - 1, size));
         //将boolQueryBuilder填充到nativeSearchQueryBuilder
         nativeSearchQueryBuilder.withQuery(boolQueryBuilder);
@@ -232,7 +232,7 @@ public class SkuServiceImpl implements SkuService {
         //碎片长度:关键词数据的长度
         field.fragmentSize(100);
 
-        nativeSearchQueryBuilder.withHighlightFields(field);//---------------------------------
+        nativeSearchQueryBuilder.withHighlightFields(field);
         // AggregatedPage<SkuInfo> page = elasticsearchTemplate.queryForPage(nativeSearchQueryBuilder.build(), SkuInfo.class);
         AggregatedPage<SkuInfo> page = elasticsearchTemplate.queryForPage(nativeSearchQueryBuilder.build(), SkuInfo.class, new SearchResultMapper() {
             @Override
@@ -267,11 +267,18 @@ public class SkuServiceImpl implements SkuService {
         long totalElements = page.getTotalElements();
         //总页数
         int totalPages = page.getTotalPages();
+        NativeSearchQuery query = nativeSearchQueryBuilder.build();
+        Pageable pageable = query.getPageable();
+        int pageNumber = pageable.getPageNumber();
+        int pageSize = pageable.getPageSize();
+
         //构建一个集合返回
         Map<String, Object> map = new HashMap<>();
-        map.put("content", content);
-        map.put("totalElements", totalElements);
+        map.put("rows", content);
+        map.put("total", totalElements);
         map.put("totalPages", totalPages);
+        map.put("pageNumber",pageNumber);
+        map.put("pageSize",pageSize);
         return map;
     }
 

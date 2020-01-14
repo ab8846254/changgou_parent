@@ -1,0 +1,80 @@
+
+csquid:S1192®"FDefine a constant instead of duplicating this literal "UTF-8" 3 times.(‚şÿéüÿÿÿÿ
+u
+squid:S135‹"YReduce the total number of break and continue statements in this loop to use at most one.(ÅöÖûÿÿÿÿ
+u
+squid:S135Ã"YReduce the total number of break and continue statements in this loop to use at most one.(ú²õ«üÿÿÿÿ
+isquid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¨í(
+jsquid:S00117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê ß
+osquid:S00117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¼Š‘ùÿÿÿÿ
+osquid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÜúôÿÿÿÿÿ
+osquid:S00117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ³°€øÿÿÿÿ
+osquid:S00117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«£‡•ùÿÿÿÿ
+jsquid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚Ï¿„
+osquid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ ±ºıÿÿÿÿ
+esquid:S00116õ"LRename this field "P" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º²ıâ
+esquid:S00116ö"LRename this field "S" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…â•¦
+wsquid:S1149…"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‡•î
+wsquid:S1149»"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‡•î
+wsquid:S1149—"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‡•î
+wsquid:S1149Ö"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‡•î
+Osquid:S1197G"8Move the array designator from the variable to the type.(¯ÚİÎ
+Osquid:S1197N"8Move the array designator from the variable to the type.(Şú¾—
+Psquid:S1197Ô"8Move the array designator from the variable to the type.(¬Ì’
+ksquid:ModifiersOrderCheckÔ"EReorder the modifiers to comply with the Java Language Specification.(¬Ì’
+Psquid:S1197Ú"8Move the array designator from the variable to the type.(Åşõ·
+ksquid:ModifiersOrderCheckÚ"EReorder the modifiers to comply with the Java Language Specification.(Åşõ·
+Usquid:S1197ä"8Move the array designator from the variable to the type.(¬ùÿĞşÿÿÿÿ
+psquid:ModifiersOrderCheckä"EReorder the modifiers to comply with the Java Language Specification.(¬ùÿĞşÿÿÿÿ
+Psquid:S1197õ"8Move the array designator from the variable to the type.(º²ıâ
+Psquid:S1197ö"8Move the array designator from the variable to the type.(…â•¦
+¤%squid:RedundantThrowsDeclarationCheckƒ"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ó’Úıÿÿÿÿ
+lsquid:S00100‚"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¨ÿÉûÿÿÿÿ
+Usquid:S1197‚"8Move the array designator from the variable to the type.(’¨ÿÉûÿÿÿÿ
+=squid:S1659†" Declare "c2" on a separate line.(Şİ¸üÿÿÿÿ
+¤%squid:RedundantThrowsDeclarationCheckº"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(ó’Úıÿÿÿÿ
+lsquid:S00100¹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼Ô©”üÿÿÿÿ
+:squid:S1659¼""Declare "slen" on a separate line.(†Î¡Ã
+:squid:S1659¼""Declare "olen" on a separate line.(†Î¡Ã
+=squid:S1659¾" Declare "c2" on a separate line.(ÀßçÖùÿÿÿÿ
+=squid:S1659¾" Declare "c3" on a separate line.(ÀßçÖùÿÿÿÿ
+=squid:S1659¾" Declare "c4" on a separate line.(ÀßçÖùÿÿÿÿ
+<squid:S1659¾"Declare "o" on a separate line.(ÀßçÖùÿÿÿÿ
+Usquid:S1197½"8Move the array designator from the variable to the type.(øàü÷şÿÿÿÿ
+Osquid:S1197í"8Move the array designator from the variable to the type.(¨Å¥i
+7squid:S1659î"Declare "n" on a separate line.(¹È’¡
+7squid:S1659î"Declare "l" on a separate line.(¹È’¡
+7squid:S1659î"Declare "r" on a separate line.(¹È’¡
+Usquid:S1197‹"8Move the array designator from the variable to the type.(Ó¡«õüÿÿÿÿ
+Usquid:S1197‹"8Move the array designator from the variable to the type.(Ó¡«õüÿÿÿÿ
+lsquid:S00100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²êıÖÿÿÿÿÿ
+Usquid:S1197¥"8Move the array designator from the variable to the type.(ÆÇŠÑùÿÿÿÿ
+?squid:S1659©""Declare "slen" on a separate line.(‹ŒÎşÿÿÿÿ
+Usquid:S1197§"8Move the array designator from the variable to the type.(å’Üÿÿÿÿÿ
+Psquid:S1197¨"8Move the array designator from the variable to the type.(«÷×
+Psquid:S1197Â"8Move the array designator from the variable to the type.(“•á€
+Psquid:S1197Â"8Move the array designator from the variable to the type.(“•á€
+;squid:S1659Ä"#Declare "doffp" on a separate line.(›Ï¡«
+?squid:S1659Æ""Declare "slen" on a separate line.(‹ŒÎşÿÿÿÿ
+Psquid:S1197Ä"8Move the array designator from the variable to the type.(›Ï¡«
+Psquid:S1197Ä"8Move the array designator from the variable to the type.(›Ï¡«
+Psquid:S1197Å"8Move the array designator from the variable to the type.(«÷×
+fsquid:S00100æ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“¨í(
+Osquid:S1197æ"8Move the array designator from the variable to the type.(“¨í(
+Osquid:S1197æ"8Move the array designator from the variable to the type.(“¨í(
+Psquid:S1197ç"8Move the array designator from the variable to the type.(ë»Âµ
+7squid:S1659è"Declare "i" on a separate line.(šÖıÿ
+7squid:S1659è"Declare "j" on a separate line.(šÖıÿ
+Usquid:S1197ê"8Move the array designator from the variable to the type.(øàü÷şÿÿÿÿ
+;squid:S1659”"#Declare "saltb" on a separate line.(½Ë¦Œ
+<squid:S1659”"$Declare "hashed" on a separate line.(½Ë¦Œ
+>squid:S1659–"!Declare "off" on a separate line.(š¾ŒÄøÿÿÿÿ
+Psquid:S1197”"8Move the array designator from the variable to the type.(½Ë¦Œ
+Psquid:S1197”"8Move the array designator from the variable to the type.(½Ë¦Œ
+Psquid:S1197”"8Move the array designator from the variable to the type.(½Ë¦Œ
+Vsquid:S4719®"9Replace charset name argument with StandardCharsets.UTF_8(‚şÿéüÿÿÿÿ
+Usquid:S1197×"8Move the array designator from the variable to the type.(«¿±”ÿÿÿÿÿ
+Usquid:S1197†"8Move the array designator from the variable to the type.(«£‡•ùÿÿÿÿ
+Psquid:S1197‡"8Move the array designator from the variable to the type.(‚Ï¿„
+Vsquid:S4719Š"9Replace charset name argument with StandardCharsets.UTF_8(†è‚™ùÿÿÿÿ
+Qsquid:S4719‹"9Replace charset name argument with StandardCharsets.UTF_8(Óœé—

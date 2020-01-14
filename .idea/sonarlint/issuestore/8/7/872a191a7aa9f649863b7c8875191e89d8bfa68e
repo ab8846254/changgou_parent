@@ -1,4 +1,4 @@
 
+wsquid:UselessImportCheck"LRemove this unused import 'org.springframework.cloud.openfeign.FeignClient'.(«ÀÔí8ÀÀ¡¦õ-
 squid:UselessImportCheck"dRemove this unused import 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'.(¦–·Ë8Ş£Îõ-
 ƒsquid:UselessImportCheck"SRemove this unused import 'org.springframework.cloud.openfeign.EnableFeignClients'.(Š˜Â®ıÿÿÿÿ8š–´±õ-
-wsquid:UselessImportCheck"LRemove this unused import 'org.springframework.cloud.openfeign.FeignClient'.(«ÀÔí8ÀÀ¡¦õ-
